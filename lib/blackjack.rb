@@ -37,6 +37,7 @@ def hit?(current)
   if r == "h" 
     current += deal_card
 end
+end
   return current
 end
 
