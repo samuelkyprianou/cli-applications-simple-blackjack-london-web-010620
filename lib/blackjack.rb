@@ -30,7 +30,8 @@ end
 
 def hit?(current)
   prompt_user
-  response = get_user_input
+  r = get_user_input
+  r == 'h' ? deal_card += current
   
 end
 
