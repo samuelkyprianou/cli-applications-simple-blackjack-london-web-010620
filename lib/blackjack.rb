@@ -33,11 +33,12 @@ def hit?(current)
   r = get_user_input
   if r == "h" 
     current += deal_card
-  elsif r == "s" 
-     current
-   else 
+  else r != "h" || "s"
     invalid_command
+    prompt_user
+    r = get_user_input
 end
+  return current
 end
 
 def invalid_command
