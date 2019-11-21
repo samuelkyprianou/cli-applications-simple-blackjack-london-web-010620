@@ -38,6 +38,7 @@ def hit?(current)
     prompt_user
     r = get_user_input
 end
+end
   return current
 end
 
