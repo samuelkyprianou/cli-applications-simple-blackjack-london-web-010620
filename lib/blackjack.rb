@@ -31,7 +31,7 @@ end
 def hit?(current)
   prompt_user
   r = get_user_input
-   if r != "h" || "s"
+   if r != "h" or "s"
     invalid_command
     prompt_user
   if r == "h" 
