@@ -38,7 +38,6 @@ def hit?(current)
     invalid_command
     r = get_user_input
 end
-end
   return current
 end
 
