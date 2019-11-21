@@ -30,7 +30,7 @@ end
 
 def hit?(current)
   prompt_user
-  get_user_input
+  response = get_user_input
   
 end
 
