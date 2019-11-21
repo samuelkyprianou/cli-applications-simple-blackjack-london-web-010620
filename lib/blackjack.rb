@@ -34,7 +34,7 @@ def hit?(current)
    if r != "h" || "s"
     invalid_command
     prompt_user
-  else r == "h" 
+  if r == "h" 
     current += deal_card
 end
   return current
