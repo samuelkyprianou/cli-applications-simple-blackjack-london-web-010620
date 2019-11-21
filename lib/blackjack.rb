@@ -51,8 +51,9 @@ end
 #####################################################
 
 def runner
+  total = 0
   welcome
-  initial_round
-  
+  total = initial_round
+  total = hit?(total)until 
 end
     
