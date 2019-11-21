@@ -31,6 +31,8 @@ end
 def hit?(current)
   prompt_user
   r = get_user_input
+  while r != 'h' || 's'
+  
   if r == 'h'
     current += deal_card
 end
