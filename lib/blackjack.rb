@@ -28,8 +28,8 @@ def initial_round
   return i
 end
 
-def hit?
-  # code hit? here
+def hit?(current)
+  
 end
 
 def invalid_command
