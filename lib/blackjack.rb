@@ -31,7 +31,7 @@ end
 def hit?(current)
   prompt_user
   r = get_user_input
-  while r != 'h' || 's'
+ while user_input != "h" && user_input != "s"
     invalid_command
     prompt_user
     r = get_user_input
