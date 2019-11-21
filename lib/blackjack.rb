@@ -35,7 +35,6 @@ def hit?(current)
     current += deal_card
   if r != "h"||"s" 
     invalid_command
-    prompt_user
   end
 end
 return current
@@ -43,6 +42,8 @@ end
 
 def invalid_command
   puts "Please enter a valid command"
+  prompt_user
+  get_user_input
 end
 
 #####################################################
